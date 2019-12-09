@@ -17,6 +17,10 @@ body {
   font-family: Arial;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* main heading h1 */
 .main-heading {
   font-size: 36px;
@@ -60,8 +64,27 @@ header {
 /* Footer */
 footer {
   height: 200px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  padding: 20px;
   background-color: var(--green);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+
+footer .sub-heading {
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--white);
+}
+
+footer .contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+footer li a {
+  margin: 0 5px;
+  padding: 3px;
+  border-bottom: 3px solid var(--blue); 
+  background: #FFD700;
+  font-size: 18px;
+  color: #1E90FF;
 }
