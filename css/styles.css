@@ -17,6 +17,16 @@ body {
   font-family: Arial;
 }
 
+/* main heading h1 */
+.main-heading {
+  font-size: 36px;
+}
+
+/* sub-heading h2 */
+.sub-heading {
+  font-size: 28px;
+}
+
 header {
   height: 100px;
   padding: 30px;
@@ -34,4 +44,12 @@ header {
   max-width: 800px;
   border-radius: 3px;
   background: var(--white);
+}
+
+.about p {
+  margin-bottom: 10px;
+}
+
+.about p:last-of-type {
+  margin-bottom: 0;
 }
